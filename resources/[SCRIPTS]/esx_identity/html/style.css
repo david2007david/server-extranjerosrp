@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+    display: none;
+}
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    display: none;
+}
+
+.dialog {
+   margin-top: 10px;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-image: url("cartao.png");
+    background-repeat: no-repeat;
+    
+}
+
+form {
+    margin: 0;
+    
+}
+
+/* input[type=text] {
+    width: 100%;
+    padding: 10px;
+	text-align: center;
+} */
+
+button {
+    display: block;
+    margin-top: 160px;
+    margin-left: -10px;
+    padding: 10px;
+    background-color: rgb(27, 145, 255);
+    border: 0;
+    color: #fff;
+    width: 90%;
+}
+
+h1 {
+    display: block;
+    margin-top: 5px;
+	margin-right: 5px;
+    padding: 10px;
+    
+    border: 0;
+    color: #fff;
+    width: 93%;
+	text-align: center;
+}
+
+#firstname{
+    width: 62%;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 175px;
+    border-color: rgba(255, 255, 255, 0.0);
+    outline: none;
+    background-color: transparent;
+}
+
+#lastname{
+    width: 62%;
+    text-align: left;
+    margin-top: 75px;
+    margin-left: 175px;
+    border-color: rgba(255, 255, 255, 0.0);
+    outline: none;
+    background-color: transparent;
+}
+
+#sex{
+    width: 45px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 170px;
+    border-color: rgba(255, 255, 255, 0.0);
+    outline: none;
+    background-color: transparent;
+}
+
+#height{
+    width: 45px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 15px;
+    border-color: rgba(255, 255, 255, 0.0);
+    outline: none;
+    background-color: transparent;
+}
+
+#dateofbirth{
+    width: 20%;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 130px;
+    border-color: rgba(255, 255, 255, 0.0);
+    outline: none;
+    background-color: transparent;
+}

@@ -1,0 +1,27 @@
+Locales['en'] = {
+
+  ['you_paid'] = 'pagaste ~g~$',
+  ['go_next_point'] = '¡ve al siguiente punto!',
+  ['in_town_speed'] = 'Ya casi lo tienes, presta atención a todos los angulos! Límite de velocidad: ~y~',
+  ['next_point_speed'] = '¡ve al siguiente punto! Límite de velocidad: ~y~',
+  ['stop_for_ped'] = '~r~Para~s~, rodearemos los edificios ~y~centrales',
+  ['good_lets_cont'] = '~g~adelante~s~, continúa.',
+  ['stop_look_left'] = '~r~Para~s~. Ahora empieza lo ~y~bueno~s~. Ten cuidado ',
+  ['good_turn_right'] = '~g~bien~s~, sigue alerta y ten cuidado!',
+  ['watch_traffic_lightson'] = 'mira el paisaje, y ~y~sube las ruedas con G~s~!',
+  ['stop_for_passing'] = '~r~¡Para~s~ y observa el paisaje!',
+  ['hway_time'] = '¡Ya casi lo tienes, sin miedo! Límite de velocidad:~y~ ',
+  ['gratz_stay_alert'] = '¡felicidades, manténgase ~r~alerta~s~ mientras vuela!',
+  ['passed_test'] = 'has ~g~aprobado~s~ el examen',
+  ['failed_test'] = 'has ~r~suspendido~s~ el examen',
+  ['theory_test'] = 'examen de conducir teórico $',
+  ['road_test_air'] = 'examen de vuelo práctico $',
+  ['aircraft_school'] = 'Escuela de vuelo',
+  ['press_open_menu'] = 'Pulsa ~INPUT_CONTEXT~ para abrir el menu',
+  ['aircraft_school_blip'] = 'Escuela de vuelo',
+  ['aircraft_test_complete'] = 'examen de vuelo completado',
+  ['driving_too_fast'] = '~r~¡Estás conduciendo demasiado rápido!~s~ Limite de velocidad:~y~ ',
+  ['errors'] = 'errores: ~r~',
+  ['you_damaged_veh'] = 'Has dañado el vehículo',
+
+}

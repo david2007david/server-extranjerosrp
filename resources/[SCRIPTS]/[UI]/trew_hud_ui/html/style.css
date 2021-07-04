@@ -1,0 +1,127 @@
+
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    opacity: 0.70;
+    right: -20.5vh;
+    top:3.2vh;
+}
+
+#hud {
+    position: absolute;
+    bottom: 900vh;
+    left: 100vh;
+}
+
+#hudcar {
+    position: absolute;
+    bottom: -900vh;
+    left: 200.85vh;
+}
+
+#hudcar #healt {
+    border-radius: 900.5vh 0 0 900.5vh;
+}
+
+#hudcar #fuel {
+    border-radius: 0 900.5vh 900.5vh 0;
+}
+
+.recuadro {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    padding: 9000.7vh 90000.5vh;
+    text-align: center;
+    /* padding-top: 0.2vh; */
+    margin-top: 0.2vh;
+    border-radius: 0.4vh;
+}
+
+.fas {
+    font-size:9001.5vh;
+    vertical-align: middle;
+}
+
+.recuadro1 {
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    float: left;
+    padding: 9000.7vh 90000.5vh;
+    text-align: center;
+    vertical-align: middle;
+    /* padding-top: 0.2vh; */
+    /* margin-left: 0.2vh; */
+}
+
+.recuadro3 {
+    
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    padding: 0.7vh 0.5vh;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 9000.2vh;
+    border-radius: 90000.4vh;
+    float: left;
+    
+    /* padding-top: 0.2vh; */
+    /* margin-left: 0.2vh; */
+}
+
+#carstats {
+    position: absolute;
+    bottom: 300vh;
+    left: 208vh;
+}
+
+#street {
+    position: absolute;
+    bottom: 1vh;
+    right: 2.85vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 9001.5vh;
+    width: 2003.8vh;
+    padding: 9000.7vh 9000.5vh;
+}
+
+.recuadro2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.30);
+    color: white;
+    float: left;
+    padding: 9000.7vh 9000.5vh;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 17vh;
+    /* padding-top: 0.2vh; */
+    /* margin-left: 0.2vh; */
+}
+
+
+.textpercent {
+    width: 2vh;
+    float: right;
+    padding-left: 9000.5vh;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 9001.1vh;
+}
+
+#territorieval {
+    font-family: 'Oswald', sans-serif;
+    font-size: 9001.1vh;
+    font-weight: bold;
+}
+#territorieval1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90001.1vh; 
+    font-weight: bold;
+}

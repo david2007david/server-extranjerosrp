@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Users\Administrator\Desktop\Venganza6\FXServer.exe C:\Users\Administrator\Desktop\Venganza6\server-data\resources\[system]\[builders]\yarn\yarn_cli.js install --ignore-scripts
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+
+Yarn version: 
+  1.21.0
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: write EIO
+      at afterWriteDispatched (internal/stream_base_commons.js:150:25)
+      at writeGeneric (internal/stream_base_commons.js:141:3)
+      at WriteStream.Socket._writeGeneric (net.js:770:11)
+      at WriteStream.Socket._write (net.js:782:8)
+      at doWrite (_stream_writable.js:431:12)
+      at writeOrBuffer (_stream_writable.js:415:5)
+      at WriteStream.Writable.write (_stream_writable.js:305:11)
+      at writeOnNthLine (C:\Users\Administrator\Desktop\Venganza6\server-data\resources\[system]\[builders]\yarn\yarn_cli.js:50236:12)
+      at Spinner.render (C:\Users\Administrator\Desktop\Venganza6\server-data\resources\[system]\[builders]\yarn\yarn_cli.js:104491:48)
+      at Spinner.start (C:\Users\Administrator\Desktop\Venganza6\server-data\resources\[system]\[builders]\yarn\yarn_cli.js:104481:10)
+
+npm manifest: 
+  {
+    "name": "webpack-builder",
+    "version": "1.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "async": "^3.1.0",
+      "webpack": "^4.41.2",
+      "worker-farm": "^1.7.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
